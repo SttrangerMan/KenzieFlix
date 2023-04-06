@@ -1,0 +1,91 @@
+body{
+    background-color: #141414;
+    color: white;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    height: 60px;
+    padding-top: 130px ;
+    transition: 2s;
+    
+}
+
+h2{
+    text-align: center;
+    padding:50px
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    color: #888686;
+}
+
+li img{
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid #141414;
+    transition: 0.3s;
+}
+
+.Add-Profile{
+   background-color: #232323;
+   height: 70px;
+   width: 70px;
+   padding:45px;
+}
+
+li p{
+   display: flex;
+   justify-content: center;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    background-color: #141414;
+    color: white;
+    width: 200px;
+    height: 60px;
+    align-items: center;    
+    border-radius: 8px;
+    border-color: white;
+    cursor: pointer;
+    font-size:large;
+    transition: 0.5s;
+}
+
+button:hover{
+   background-color: #ffffff;
+   color: #141414;
+}
+
+li:hover {
+    color: #ffffff;
+
+}
+
+li img:hover{
+    border-color: #ffffff ;
+    transform: scale(1.1);
+}
+
+header img:hover{
+    transform: scale(1.4);
+}
+
